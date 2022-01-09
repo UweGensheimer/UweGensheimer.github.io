@@ -9,32 +9,32 @@
     <meta name="description" content="- Developing a tailored branch-price-and-cut based optimization algorithms in C++ to exactly solve several  variants  of  multi-period  vehicle  routing  problems  (multiple  day  trips,  multiple">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems">
-<meta property="og:url" content="https://uwegensheimer.github.io/Simulation/index.html">
+<meta property="og:url" content="https://uwegensheimer.github.io/project/Simulation/index.html">
 <meta property="og:site_name" content="Aliakbar Izadkhah">
 <meta property="og:description" content="- Developing a tailored branch-price-and-cut based optimization algorithms in C++ to exactly solve several  variants  of  multi-period  vehicle  routing  problems  (multiple  day  trips,  multiple">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://uwegensheimer.github.io/Simulation/PVRP.PNG">
-<meta property="og:image" content="https://uwegensheimer.github.io/Simulation/MDT.PNG">
+<meta property="og:image" content="https://uwegensheimer.github.io/project/Simulation/PVRP.PNG">
+<meta property="og:image" content="https://uwegensheimer.github.io/project/Simulation/MDT.PNG">
 <meta property="article:published_time" content="2022-01-06T22:29:33.000Z">
 <meta property="article:modified_time" content="2022-01-09T00:34:39.444Z">
 <meta property="article:author" content="Aliakbar Izadkhah">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://uwegensheimer.github.io/Simulation/PVRP.PNG">
+<meta name="twitter:image" content="https://uwegensheimer.github.io/project/Simulation/PVRP.PNG">
     
     
       
         
-          <link rel="shortcut icon" href="/images/favicon.ico">
+          <link rel="shortcut icon" href="/project/images/favicon.ico">
         
       
       
         
-          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          <link rel="icon" type="image/png" href="/project/images/favicon-192x192.png" sizes="192x192">
         
       
       
         
-          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          <link rel="apple-touch-icon" sizes="180x180" href="/project/images/apple-touch-icon.png">
         
       
     
@@ -42,7 +42,7 @@
     <title>Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems</title>
     <!-- styles -->
     
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/project/css/style.css">
 
     <!-- persian styles -->
     
@@ -63,13 +63,13 @@
     <span id="nav">
       <ul>
         <!--
-       --><li><a href="/">Home</a></li><!--
+       --><li><a href="/project/">Home</a></li><!--
      --><!--
-       --><li><a href="/publication/">publication</a></li><!--
+       --><li><a href="/project/publication/">publication</a></li><!--
      --><!--
-       --><li><a href="/archives/">research</a></li><!--
+       --><li><a href="/project/archives/">research</a></li><!--
      --><!--
-       --><li><a href="/cproj/">course projects</a></li><!--
+       --><li><a href="/project/cproj/">course projects</a></li><!--
      -->
       </ul>
     </span>
@@ -77,10 +77,10 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" aria-label="Previous post" href="/mlvrp/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Previous post" href="/project/mlvrp/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" aria-label="Next post" href="/myfirstpost/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Next post" href="/project/myfirstpost/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -93,17 +93,17 @@
     <br/>
     <div id="share" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://uwegensheimer.github.io/Simulation/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://uwegensheimer.github.io/Simulation/&text=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://uwegensheimer.github.io/Simulation/&is_video=false&description=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems&body=Check out this article: https://uwegensheimer.github.io/Simulation/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://uwegensheimer.github.io/Simulation/&name=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://uwegensheimer.github.io/Simulation/&t=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://uwegensheimer.github.io/project/Simulation/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://uwegensheimer.github.io/project/Simulation/&text=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://uwegensheimer.github.io/project/Simulation/&is_video=false&description=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems&body=Check out this article: https://uwegensheimer.github.io/project/Simulation/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://uwegensheimer.github.io/project/Simulation/&name=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://uwegensheimer.github.io/project/Simulation/&t=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -148,11 +148,11 @@
 
   <div class="content" itemprop="articleBody">
     <kbd>
-<img src="/Simulation/PVRP.PNG" class="">
+<img src="/project/Simulation/PVRP.PNG" class="">
 </kbd>
 - Developing a tailored branch-price-and-cut based optimization algorithms in C++ to exactly solve several  variants  of  multi-period  vehicle  routing  problems  (multiple  day  trips,  multiple  depots,service choice, time windows, heterogeneous fleets)
 
-<img src="/Simulation/MDT.PNG" class="">
+<img src="/project/Simulation/MDT.PNG" class="">
 <ul>
 <li>Proposed  a  new  variant  of  routing  problem  called  ”periodic  vehicle  routing  with  multiple  daytrips” to the literature -which arises in the Linde PLC supply chain operations- with a novel exact solution approach for the first time in the literature</li>
 <li>Developing a branch-price-and-cut approach for solving robust periodic vehicle routing problems with order uncertainty under various serving policies</li>
@@ -170,13 +170,13 @@
     <div id="nav-footer" style="display: none">
       <ul>
          
-          <li><a href="/">Home</a></li>
+          <li><a href="/project/">Home</a></li>
          
-          <li><a href="/publication/">publication</a></li>
+          <li><a href="/project/publication/">publication</a></li>
          
-          <li><a href="/archives/">research</a></li>
+          <li><a href="/project/archives/">research</a></li>
          
-          <li><a href="/cproj/">course projects</a></li>
+          <li><a href="/project/cproj/">course projects</a></li>
         
       </ul>
     </div>
@@ -187,17 +187,17 @@
 
     <div id="share-footer" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://uwegensheimer.github.io/Simulation/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://uwegensheimer.github.io/Simulation/&text=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://uwegensheimer.github.io/Simulation/&is_video=false&description=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems&body=Check out this article: https://uwegensheimer.github.io/Simulation/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://uwegensheimer.github.io/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://uwegensheimer.github.io/Simulation/&name=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://uwegensheimer.github.io/Simulation/&t=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://uwegensheimer.github.io/project/Simulation/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://uwegensheimer.github.io/project/Simulation/&text=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://uwegensheimer.github.io/project/Simulation/&is_video=false&description=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems&body=Check out this article: https://uwegensheimer.github.io/project/Simulation/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://uwegensheimer.github.io/project/Simulation/&title=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://uwegensheimer.github.io/project/Simulation/&name=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://uwegensheimer.github.io/project/Simulation/&t=Developing Branch-Price-and-Cut Solver for Periodic Vehicle Routing Problems"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -225,13 +225,13 @@
     <nav>
       <ul>
         <!--
-       --><li><a href="/">Home</a></li><!--
+       --><li><a href="/project/">Home</a></li><!--
      --><!--
-       --><li><a href="/publication/">publication</a></li><!--
+       --><li><a href="/project/publication/">publication</a></li><!--
      --><!--
-       --><li><a href="/archives/">research</a></li><!--
+       --><li><a href="/project/archives/">research</a></li><!--
      --><!--
-       --><li><a href="/cproj/">course projects</a></li><!--
+       --><li><a href="/project/cproj/">course projects</a></li><!--
      -->
       </ul>
     </nav>
@@ -279,7 +279,7 @@
   </script>
 
 
-<script src="/js/main.js"></script>
+<script src="/project/js/main.js"></script>
 
 <!-- search -->
 
