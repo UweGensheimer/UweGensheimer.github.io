@@ -6,32 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content="Implemented a metaheuristic delivery schedule search algorithm with black-box routing simulation and derivative-free optimization (DFO) solver.  On-going Developing time series forecasting algorithm">
+    <meta name="description" content="Implemented a metaheuristic delivery schedule search algorithm with black-box routing simulation and derivative-free optimization (DFO) solver.  On-going Developing time series forecasting algorith">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ML-assisted Vehicle Routing Under Uncertainty">
-<meta property="og:url" content="https://uwegensheimer.github.io/project/mlvrp/index.html">
+<meta property="og:url" content="http://example.com/mlvrp/index.html">
 <meta property="og:site_name" content="Aliakbar Izadkhah">
-<meta property="og:description" content="Implemented a metaheuristic delivery schedule search algorithm with black-box routing simulation and derivative-free optimization (DFO) solver.  On-going Developing time series forecasting algorithm">
+<meta property="og:description" content="Implemented a metaheuristic delivery schedule search algorithm with black-box routing simulation and derivative-free optimization (DFO) solver.  On-going Developing time series forecasting algorith">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/mlvrp/ML-VRP.png">
 <meta property="article:published_time" content="2022-01-06T22:31:44.000Z">
-<meta property="article:modified_time" content="2022-01-07T01:12:30.488Z">
+<meta property="article:modified_time" content="2022-01-09T02:18:28.346Z">
 <meta property="article:author" content="Aliakbar Izadkhah">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/mlvrp/ML-VRP.png">
     
     
       
         
-          <link rel="shortcut icon" href="/project/images/favicon.ico">
+          <link rel="shortcut icon" href="/images/favicon.ico">
         
       
       
         
-          <link rel="icon" type="image/png" href="/project/images/favicon-192x192.png" sizes="192x192">
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
         
       
       
         
-          <link rel="apple-touch-icon" sizes="180x180" href="/project/images/apple-touch-icon.png">
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
         
       
     
@@ -39,7 +41,7 @@
     <title>ML-assisted Vehicle Routing Under Uncertainty</title>
     <!-- styles -->
     
-<link rel="stylesheet" href="/project/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
     <!-- persian styles -->
     
@@ -60,13 +62,11 @@
     <span id="nav">
       <ul>
         <!--
-       --><li><a href="/project/">Home</a></li><!--
+       --><li><a href="/">Home</a></li><!--
      --><!--
-       --><li><a href="/project/publication/">publication</a></li><!--
+       --><li><a href="/publication/">publication</a></li><!--
      --><!--
-       --><li><a href="/project/archives/">research</a></li><!--
-     --><!--
-       --><li><a href="/project/cproj/">course projects</a></li><!--
+       --><li><a href="/cproj/">course projects</a></li><!--
      -->
       </ul>
     </span>
@@ -75,7 +75,7 @@
       <ul>
         
         
-        <li><a class="icon" aria-label="Next post" href="/project/Simulation/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Next post" href="/Simulation/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -88,17 +88,17 @@
     <br/>
     <div id="share" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://uwegensheimer.github.io/project/mlvrp/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://uwegensheimer.github.io/project/mlvrp/&text=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://uwegensheimer.github.io/project/mlvrp/&is_video=false&description=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=ML-assisted Vehicle Routing Under Uncertainty&body=Check out this article: https://uwegensheimer.github.io/project/mlvrp/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://uwegensheimer.github.io/project/mlvrp/&name=ML-assisted Vehicle Routing Under Uncertainty&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://uwegensheimer.github.io/project/mlvrp/&t=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/mlvrp/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/mlvrp/&text=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/mlvrp/&is_video=false&description=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=ML-assisted Vehicle Routing Under Uncertainty&body=Check out this article: http://example.com/mlvrp/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/mlvrp/&name=ML-assisted Vehicle Routing Under Uncertainty&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/mlvrp/&t=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -142,7 +142,9 @@
   
 
   <div class="content" itemprop="articleBody">
-    <ul>
+    <img src="/mlvrp/ML-VRP.png" class="">
+
+<ul>
 <li><p>Implemented a metaheuristic delivery schedule search algorithm with black-box routing simulation and derivative-free optimization (DFO) solver.</p>
 </li>
 <li><p>On-going Developing time series forecasting algorithm to learn from historical customer orders data and generate new synthetic time-series data in unsupervised/supervised fashion.</p>
@@ -163,13 +165,11 @@
     <div id="nav-footer" style="display: none">
       <ul>
          
-          <li><a href="/project/">Home</a></li>
+          <li><a href="/">Home</a></li>
          
-          <li><a href="/project/publication/">publication</a></li>
+          <li><a href="/publication/">publication</a></li>
          
-          <li><a href="/project/archives/">research</a></li>
-         
-          <li><a href="/project/cproj/">course projects</a></li>
+          <li><a href="/cproj/">course projects</a></li>
         
       </ul>
     </div>
@@ -180,17 +180,17 @@
 
     <div id="share-footer" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://uwegensheimer.github.io/project/mlvrp/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://uwegensheimer.github.io/project/mlvrp/&text=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://uwegensheimer.github.io/project/mlvrp/&is_video=false&description=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=ML-assisted Vehicle Routing Under Uncertainty&body=Check out this article: https://uwegensheimer.github.io/project/mlvrp/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://uwegensheimer.github.io/project/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://uwegensheimer.github.io/project/mlvrp/&name=ML-assisted Vehicle Routing Under Uncertainty&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://uwegensheimer.github.io/project/mlvrp/&t=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/mlvrp/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/mlvrp/&text=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/mlvrp/&is_video=false&description=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=ML-assisted Vehicle Routing Under Uncertainty&body=Check out this article: http://example.com/mlvrp/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/mlvrp/&title=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/mlvrp/&name=ML-assisted Vehicle Routing Under Uncertainty&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/mlvrp/&t=ML-assisted Vehicle Routing Under Uncertainty"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -218,13 +218,11 @@
     <nav>
       <ul>
         <!--
-       --><li><a href="/project/">Home</a></li><!--
+       --><li><a href="/">Home</a></li><!--
      --><!--
-       --><li><a href="/project/publication/">publication</a></li><!--
+       --><li><a href="/publication/">publication</a></li><!--
      --><!--
-       --><li><a href="/project/archives/">research</a></li><!--
-     --><!--
-       --><li><a href="/project/cproj/">course projects</a></li><!--
+       --><li><a href="/cproj/">course projects</a></li><!--
      -->
       </ul>
     </nav>
@@ -272,7 +270,7 @@
   </script>
 
 
-<script src="/project/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 <!-- search -->
 
